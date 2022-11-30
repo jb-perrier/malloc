@@ -4,7 +4,8 @@
 
 #include "malloc.h"
 
-#define TINY_SIZE
+#define TINY_MAX_SIZE 64
+#define SMALL_MAX_SIZE 256
 
 void    free(void* ptr)
 {
